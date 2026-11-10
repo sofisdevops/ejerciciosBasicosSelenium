@@ -63,7 +63,7 @@ public class quinto {
         } catch (Exception e) {
             throw new RuntimeException(e);
         } finally {
-            //driver.quit();
+            driver.quit();
         }
     }
 }
